@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 220 20% 8%;
+    --foreground: 180 100% 95%;
+
+    --card: 220 25% 10%;
+    --card-foreground: 180 100% 95%;
+
+    --popover: 220 30% 12%;
+    --popover-foreground: 180 100% 95%;
+
+    --primary: 180 100% 50%;
+    --primary-foreground: 220 20% 8%;
+
+    --secondary: 200 100% 45%;
+    --secondary-foreground: 220 20% 8%;
+
+    --muted: 220 20% 20%;
+    --muted-foreground: 180 20% 70%;
+
+    --accent: 165 100% 60%;
+    --accent-foreground: 220 20% 8%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 20% 20%;
+    --input: 220 25% 15%;
+    --ring: 180 100% 50%;
+
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(180 100% 50%), hsl(165 100% 60%));
+    --gradient-secondary: linear-gradient(135deg, hsl(200 100% 45%), hsl(180 100% 50%));
+    --gradient-dark: linear-gradient(180deg, hsl(220 25% 10%), hsl(220 20% 8%));
+    
+    /* Effects */
+    --glow-primary: 0 0 30px hsl(180 100% 50% / 0.3);
+    --glow-accent: 0 0 40px hsl(165 100% 60% / 0.2);
+    --shadow-card: 0 8px 32px hsl(220 30% 5% / 0.5);
+    
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    background: linear-gradient(180deg, hsl(220 25% 10%), hsl(220 20% 8%));
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-card/50 backdrop-blur-xl border border-border/50;
+    box-shadow: var(--shadow-card);
+  }
+  
+  .neon-text {
+    text-shadow: var(--glow-primary);
+  }
+  
+  .hover-glow {
+    transition: var(--transition-smooth);
+  }
+  
+  .hover-glow:hover {
+    box-shadow: var(--glow-primary);
+  }
+  
+  .gradient-text {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
