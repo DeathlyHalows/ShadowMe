@@ -135,10 +135,10 @@ bun dev
 
 ## 🎥 Demo
 
-![App Screenshot](https://github.com/DeathlyHalows/ShadowMe/blob/main/public/demo.png)
-
-> *Coming soon:* A short demo video showcasing the AI training, chat interface, and privacy dashboard.
-
+> *Step 1:* Sign up with a valid email id, password and username.
+> *Step 2:* Sign in with the correct credentials.
+> *Step 3:* Start training your shadow by talking to it.
+> *Step 4:* When its ready, you can start using it in mirror mode.
 ---
 
 ## 🔮 Future Roadmap
@@ -186,5 +186,6 @@ If you like **ShadowMe**, please give it a ⭐ on GitHub — your support helps 
 
 > _"In a world full of algorithms that watch you, it’s time to build one that understands you."_  
 > **ShadowMe** — your AI reflection, your privacy shield, your digital consciousness.
+
 
 
