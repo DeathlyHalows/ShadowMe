@@ -12,13 +12,15 @@
 
 ## 🏆 Hackathon Submission
 
-This project is a submission for the **ShadowHack 2025** hackathon.  
-**Theme:** Artificial Intelligence • Privacy & Identity  
-**Team Name:** Neural Mirage  
+This project is a submission for the **HackaThrone 2025** hackathon.  
+**Pillars:** Artificial Intelligence, Web Development, Cybersecurity, Innovations   
+**Team Name:** RockStar ByteSquads
 
 **Team Members:**
-- **DeathlyHalows** — Developer & Architect  
-- **viswaswork** — Backend & ML Systems  
+- **Shyam Ganesh V** — Lead Developer & Architect  
+- **Viswas M** — Frontend & AI systems
+- **Shyam Sundar M** - Frontend
+- **Jagadhishwar** - Frontend
 
 ---
 
@@ -185,3 +187,4 @@ If you like **ShadowMe**, please give it a ⭐ on GitHub — your support helps 
 
 > _"In a world full of algorithms that watch you, it’s time to build one that understands you."_  
 > **ShadowMe** — your AI reflection, your privacy shield, your digital consciousness.
+
