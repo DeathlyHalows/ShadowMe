@@ -91,7 +91,6 @@ F --> G[Dashboard: Analytics + Tracker Data]
 ## 📊 Dashboard & Analytics
 
 The ShadowMe dashboard gives you a **visual overview** of your AI’s evolution:
-- Number of **trackers blocked**
 - **Privacy Index** — before/after anonymization
 - **Learning Progress** — how well the AI mirrors you
 - **Tone & Personality Insights** from chats
@@ -187,4 +186,5 @@ If you like **ShadowMe**, please give it a ⭐ on GitHub — your support helps 
 
 > _"In a world full of algorithms that watch you, it’s time to build one that understands you."_  
 > **ShadowMe** — your AI reflection, your privacy shield, your digital consciousness.
+
 
